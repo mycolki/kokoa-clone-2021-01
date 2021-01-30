@@ -44,3 +44,17 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__subtitle {
+  display: flex;
+  justify-content: center;
+}
+.user-component__subtitle span {
+  border: 3px solid tomato;
+  color: tomato;
+  font-weight: 600;
+  padding: 0px 4px;
+  border-radius: 50%;
+  font-size: 11px;
+  margin-left: 5px;
+}
