@@ -29,7 +29,7 @@
   transition: border-color 0.3s ease-in-out;
 }
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--gray-color);
 }
 #login-form input:focus {
   border-color: var(--yellow);

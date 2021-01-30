@@ -15,7 +15,7 @@
 }
 
 .friends-screen__channel {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
   margin-top: 25px;
   padding-top: 15px;
 }
@@ -23,6 +23,6 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
-  magrin-top: -15px;
-  color: rgba(0, 0, 0, 0.5);
+  margin-top: -15px;
+  color: var(--gray-color);
 }

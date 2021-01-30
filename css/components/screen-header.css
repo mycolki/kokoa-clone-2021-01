@@ -13,3 +13,13 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+.screen-header__icons {
+  display: flex;
+  position: relative;
+}
+.red-notice {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
